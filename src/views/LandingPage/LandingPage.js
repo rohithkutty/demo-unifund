@@ -6,6 +6,7 @@ import {
   SmileOutlined,
 } from '@ant-design/icons';
 import { newItems, trendingItems } from './data';
+import ErrorBoundary from "../ErrorBoundary";
 
 export default function LandingPage() {
   const { Meta } = Card;
@@ -147,6 +148,8 @@ export default function LandingPage() {
           </Col>
         </Row>
       </div>
+      <div style={{height: 300}}/>
+
     </div>
   );
 }

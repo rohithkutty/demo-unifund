@@ -12,6 +12,7 @@ const Contact = () => {
         </p>
       </div>
       <img src={ContactImg} alt='contact us' width='50%' />
+      <div style={{height: 300}}/>
     </div>
   );
 };

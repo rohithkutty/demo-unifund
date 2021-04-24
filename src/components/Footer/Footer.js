@@ -41,7 +41,17 @@ const Footer = () => {
     },
   };
   return (
-    <div style={styles.main}>
+    <div
+      style={{
+        backgroundColor: 'black',
+        paddingTop: '15px',
+        marginTop: '1%',
+        position: 'fixed',
+        width: '100%',
+        bottom: '0',
+        height: '225px',
+      }}
+    >
       <Row justify='center'>
         <Col span={5}>
           <h3 style={styles.title}>UNIFUND</h3>
