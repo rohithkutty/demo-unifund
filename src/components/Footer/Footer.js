@@ -9,6 +9,15 @@ import {
 
 const Footer = () => {
   const styles = {
+    main: {
+      backgroundColor: 'black',
+      paddingTop: '15px',
+      marginTop: '1%',
+      position: 'fixed',
+      width: '100%',
+      bottom: '0',
+      height: '225px',
+    },
     title: {
       color: 'white',
       fontWeight: '900',
@@ -32,9 +41,7 @@ const Footer = () => {
     },
   };
   return (
-    <div
-      style={{ backgroundColor: 'black', paddingTop: '15px', marginTop: '1%' }}
-    >
+    <div style={styles.main}>
       <Row justify='center'>
         <Col span={5}>
           <h3 style={styles.title}>UNIFUND</h3>

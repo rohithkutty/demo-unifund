@@ -7,6 +7,10 @@ const styles = {
   main: {
     width: '100%',
     backgroundColor: 'black',
+    position: 'fixed',
+    zIndex: '1',
+    top: '0',
+    height: '50px',
   },
   root: {
     display: 'flex',
