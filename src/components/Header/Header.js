@@ -164,6 +164,8 @@ const Header = () => {
                 style={{ width: '70%' }}
                 value={name}
                 onChange={(e) => setName(e.target.value)}
+                required
+                title='Please enter the name'
               />
             </div>
             <div className='input-grp'>
@@ -172,6 +174,8 @@ const Header = () => {
                 style={{ width: '70%' }}
                 value={endpoint}
                 onChange={(e) => setEndpoint(e.target.value)}
+                required
+                title='Please enter the endpoint'
               />
             </div>
             <div className='input-grp'>
@@ -181,6 +185,9 @@ const Header = () => {
                 style={{ width: '70%' }}
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
+                required
+                pattern='^(?=.*[A-Za-z])(?=.*\d)[A-Za-z\d]{8,}$'
+                title='Minimum eight characters, at least one letter and one number'
               />
             </div>
             <div style={{ textAlign: 'center' }}>
@@ -193,11 +200,17 @@ const Header = () => {
               />
             </div>
           </form>
-          {error && (
-            <p style={{ color: 'red', textAlign: 'center', marginBottom: '0' }}>
-              {error}
-            </p>
-          )}
+          <p
+            style={{
+              color: 'white',
+              textAlign: 'center',
+              marginBottom: '0',
+              backgroundColor: '#1890ff',
+              padding: '5px',
+            }}
+          >
+            {error.length > 0 ? error : 'Data message comes here.'}
+          </p>
         </div>
       </Modal>
     </div>
