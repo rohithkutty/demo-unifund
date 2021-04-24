@@ -19,14 +19,16 @@ function App() {
       <Router>
         <ErrorBoundary>
           <Header />
-          <Suspense fallback={<Loader />}>
-            <Switch>
-              <Route exact path='/products' component={Products} />
-              <Route exact path='/about' component={About} />
-              <Route exact path='/contact' component={Contact} />
-              <Route exact path='/' component={LandingPage} />
-            </Switch>
-          </Suspense>
+          <div style={{ margin: '50px 0 -225px 0' }}>
+            <Suspense fallback={<Loader />}>
+              <Switch>
+                <Route exact path='/products' component={Products} />
+                <Route exact path='/about' component={About} />
+                <Route exact path='/contact' component={Contact} />
+                <Route exact path='/' component={LandingPage} />
+              </Switch>
+            </Suspense>
+          </div>
           <Footer />
         </ErrorBoundary>
       </Router>
