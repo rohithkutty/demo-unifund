@@ -96,7 +96,6 @@ const About = () => {
           </Row>
         </div>
       </div>
-      <div style={{height: 300}}/>
     </div>
   );
 };

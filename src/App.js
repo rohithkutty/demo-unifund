@@ -28,6 +28,7 @@ function App() {
                 <Route exact path='/' component={LandingPage} />
               </Switch>
             </Suspense>
+            <div style={{ height: 230 }} />
           </div>
           <Footer />
         </ErrorBoundary>

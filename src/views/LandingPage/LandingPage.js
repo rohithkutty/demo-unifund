@@ -148,8 +148,6 @@ export default function LandingPage() {
           </Col>
         </Row>
       </div>
-      <div style={{height: 300}}/>
-
     </div>
   );
 }

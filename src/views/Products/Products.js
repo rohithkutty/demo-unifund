@@ -131,7 +131,6 @@ const Products = ({}) => {
             </Row>
           </Col>
         </Row>
-        <div style={{height: 300}}/>
       </ErrorBoundary>
     </div>
   );
