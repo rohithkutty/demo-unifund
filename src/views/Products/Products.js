@@ -33,7 +33,7 @@ const Products = (props) => {
           developments around the world, mobiles are no longer for sending a
           text or making a call. From budget to state-of-the-art smartphones;
           indigenous names to global big-wigs - a whole universe of mobiles
-          await you on HandelX.
+          await you on UNIFUND.
         </p>
         <Row>
           <Col span={8} offset={10}>

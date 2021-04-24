@@ -46,7 +46,7 @@ const Footer = () => {
             <strong>Phone:</strong>+91 12345 12345
           </p>
           <p style={styles.address}>
-            <strong>Email:</strong>support@handelx.com
+            <strong>Email:</strong>support@UNIFUND.com
           </p>
         </Col>
         <Col span={5}>
@@ -85,7 +85,7 @@ const Footer = () => {
       <footer
         style={{ textAlign: 'center', color: 'white', marginTop: '15px' }}
       >
-        &copy; 2020 HandelX | All rights reserved.
+        &copy; 2020 UNIFUND | All rights reserved.
       </footer>
     </div>
   );

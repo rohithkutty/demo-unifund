@@ -26,7 +26,7 @@ const About = () => {
       <div style={{ margin: '20px' }}>
         <Row justify='center'>
           <Col span={16}>
-            <h2 style={{ fontSize: '32px', fontWeight: '600' }}>HandelX</h2>
+            <h2 style={{ fontSize: '32px', fontWeight: '600' }}>UNIFUND</h2>
             <p style={{ textAlign: 'justify' }}>
               We focus on E-commerce (electronic commerce) is the activity
               of electronically buying or selling of products on online services
