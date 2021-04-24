@@ -165,7 +165,8 @@ const Header = () => {
                 value={name}
                 onChange={(e) => setName(e.target.value)}
                 required
-                title='Please enter the name'
+                pattern='^[a-zA-Z ]*$'
+                title='Please enter only alphabets'
               />
             </div>
             <div className='input-grp'>
